@@ -15,7 +15,7 @@
         }
     }
 
-    NB: I have used fchollet's style transfer project as reference for making this project.
+    NB: I have used fchollet's style transfer project as reference for this project.
     NB: Citations are in BibLaTeX format.
 
     As mentioned by authors replacing MaxPooling2D layers of VGG19 with AveragePooling2D layers result in 
