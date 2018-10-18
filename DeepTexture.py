@@ -283,7 +283,7 @@ class DeepTexture(object):
         flag = True
 
         # Getting names of all the layers in the model
-        all_layers = [layer.name for layer in model.layers]
+        all_layers = [layer.name for layer in model.layers[1:]]
 
         # Checking which layers to be used for reference
         if features == 'all':
