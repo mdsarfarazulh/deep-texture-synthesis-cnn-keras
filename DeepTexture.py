@@ -315,6 +315,9 @@ class DeepTexture(object):
 
             # Calculating total loss
             loss = loss + layer_loss
+            
+        # Adding Variational Loss
+        loss = loss + tf.image.total_variation(gen_img)
         
         # Calculating gradient
         grads = tf.gradients(loss, gen_img)
