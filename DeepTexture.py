@@ -247,7 +247,7 @@ class DeepTexture(object):
         
 
     
-    def buildTexture(self, features='all', iterations=500):
+    def buildTexture(self, features='all', iterations=50):
         '''
             This is the main function of this class this wraps everything related to the functionality
             of this project into it.
