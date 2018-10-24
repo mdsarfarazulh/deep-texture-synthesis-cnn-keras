@@ -16,6 +16,7 @@ convolutional neural networks.
 # Output Image
 The following output is generated after 500 iterations, you can control number of iterations by passing the value of iteration in the function buildTexture
 <br>
+<img src='data/outputs/pebbles.png' />
 
   
   
