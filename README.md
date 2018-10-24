@@ -9,6 +9,7 @@ convolutional neural networks.
 <br>
 
 # Input Image
+<img src='data/inputs/pebbles.jpg' />
 
 
 <br>
